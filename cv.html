@@ -1,64 +1,122 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <title>CV | Abdullah A. Albeladi</title>
   <meta name="description" content="Curriculum vitae of Abdullah A. Albeladi, Assistant Professor of Industrial Engineering at King Abdulaziz University.">
-  <title>Curriculum Vitae — Abdullah A. Albeladi</title><link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="CV | Abdullah A. Albeladi">
+  <meta property="og:description" content="Curriculum vitae of Abdullah A. Albeladi, Assistant Professor of Industrial Engineering at King Abdulaziz University.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aalbeladi.github.io/cv.html">
+  <meta property="og:image" content="https://aalbeladi.github.io/DSC_17741.jpg">
 </head>
 <body>
-<header class="site-header"><nav class="nav shell" aria-label="Main navigation"><a class="wordmark" href="index.html">A. Albeladi<span>.</span></a><button class="menu-button" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button><div class="nav-links"><a href="index.html">Home</a><a class="active" href="cv.html">Curriculum Vitae</a><a href="research.html">Research</a><a href="teaching.html">Teaching</a></div><div class="nav-social"><a href="https://www.linkedin.com/in/aalbeladi/" target="_blank" rel="noopener">LinkedIn ↗</a></div></nav></header>
-<main>
-  <section class="page-hero"><div class="shell page-hero-grid"><div class="kicker">Curriculum Vitae</div><div><h1 class="display">Academic profile.</h1><p class="lede">Operations researcher and industrial engineer working on optimization under uncertainty, energy systems, infrastructure planning, and policy design.</p></div></div></section>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="site-name" href="index.html">Abdullah A. Albeladi</a>
+    <nav class="nav-links" aria-label="Main"><a href="index.html">Home</a><a href="research.html">Research</a><a href="teaching.html">Teaching</a><a href="cv.html" aria-current="page">CV</a></nav>
+  </div>
+</header>
 
-  <div class="shell cv-wrap">
-    <aside class="cv-nav" aria-label="CV sections"><a href="#appointments">Appointments</a><a href="#education">Education</a><a href="#research">Research interests</a><a href="#publications">Publications</a><a href="#honors">Honors</a><a href="#service">Service</a><a href="#industry">Industry</a><a href="#skills">Methods & software</a><div class="download-note">This page is the web version of my CV. A downloadable PDF can be added here once the final CV file is uploaded.</div></aside>
-    <div class="cv-content">
-      <section class="cv-section" id="appointments"><h2 class="cv-section-title">Academic appointments</h2>
-        <div class="cv-entry"><div class="cv-date">2026 — Present</div><div><h3>Assistant Professor of Industrial Engineering</h3><div class="cv-place">King Abdulaziz University · Faculty of Engineering</div><p>Research and teaching in operations research, stochastic optimization, energy systems, and decision analytics.</p></div></div>
-        <div class="cv-entry"><div class="cv-date">2018 — 2020</div><div><h3>Lecturer, Industrial Engineering</h3><div class="cv-place">King Abdulaziz University</div></div></div>
-        <div class="cv-entry"><div class="cv-date">2014 — 2016</div><div><h3>Teaching Assistant, Industrial Engineering</h3><div class="cv-place">King Abdulaziz University</div></div></div>
+<main class="wrap">
+  <section class="page-title">
+    <h1>Curriculum vitae</h1>
+    <p>Operations researcher and industrial engineer working on optimization under uncertainty, energy systems, infrastructure planning, and policy design.</p>
+  </section>
+
+  <div class="cv">
+    <nav class="cv-nav" aria-label="CV sections">
+      <a href="#appointments">Appointments</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#honors">Honors</a>
+      <a href="#service">Service</a>
+      <a href="#industry">Industry</a>
+      <a href="#skills">Skills</a>
+      <ul class="links"><li hidden><a class="primary" href="cv.pdf" data-cv>CV (PDF)</a></li></ul>
+    </nav>
+
+    <div class="cv-body">
+      <section class="section" id="appointments">
+        <h2>Academic appointments</h2>
+        <ul class="rows">
+          <li class="row"><div class="row-date">2026–now</div><div><h3>Assistant Professor of Industrial Engineering</h3><p>King Abdulaziz University, Faculty of Engineering</p></div></li>
+          <li class="row"><div class="row-date">2018–2020</div><div><h3>Lecturer, Industrial Engineering</h3><p>King Abdulaziz University</p></div></li>
+          <li class="row"><div class="row-date">2014–2016</div><div><h3>Teaching Assistant, Industrial Engineering</h3><p>King Abdulaziz University</p></div></li>
+        </ul>
       </section>
 
-      <section class="cv-section" id="education"><h2 class="cv-section-title">Education</h2>
-        <div class="cv-entry"><div class="cv-date">Ph.D.</div><div><h3>Operations Research & Industrial Engineering</h3><div class="cv-place">The University of Texas at Austin</div><p><em>Game-Theoretic and Stochastic Optimization Models for Energy Policy and Planning.</em> Advisor: Benjamin D. Leibowicz.</p></div></div>
-        <div class="cv-entry"><div class="cv-date">M.S.</div><div><h3>Industrial Engineering</h3><div class="cv-place">University of Michigan · Ann Arbor</div></div></div>
-        <div class="cv-entry"><div class="cv-date">B.S.</div><div><h3>Industrial Engineering</h3><div class="cv-place">King Abdulaziz University · Jeddah</div></div></div>
+      <section class="section" id="education">
+        <h2>Education</h2>
+        <ul class="rows">
+          <li class="row"><div class="row-date">Ph.D.</div><div><h3>Operations Research and Industrial Engineering</h3><p>The University of Texas at Austin</p><p>Dissertation: <em>Game-Theoretic and Stochastic Optimization Models for Energy Policy and Planning</em>. Advisor: Benjamin D. Leibowicz.</p></div></li>
+          <li class="row"><div class="row-date">M.S.</div><div><h3>Industrial Engineering</h3><p>University of Michigan, Ann Arbor</p></div></li>
+          <li class="row"><div class="row-date">B.S.</div><div><h3>Industrial Engineering</h3><p>King Abdulaziz University, Jeddah</p></div></li>
+        </ul>
       </section>
 
-      <section class="cv-section" id="research"><h2 class="cv-section-title">Research interests</h2><div class="skill-cluster">
-        <div><h3>Optimization under uncertainty</h3><p>Stochastic programming, chance constraints, mixed-integer optimization, decomposition, scenario reduction.</p></div>
-        <div><h3>Learning-guided optimization</h3><p>Scenario ranking, data-driven algorithm design, machine learning for optimization, computational decision support.</p></div>
-        <div><h3>Energy systems</h3><p>Capacity expansion, resource adequacy, renewable uncertainty, storage, infrastructure planning.</p></div>
-        <div><h3>Markets & policy</h3><p>Game theory, equilibrium models, carbon capture, incentive design, energy and environmental policy.</p></div>
-      </div></section>
-
-      <section class="cv-section" id="publications"><h2 class="cv-section-title">Selected publications & working papers</h2>
-        <div class="cv-entry"><div class="cv-date">2026</div><div><h3>Benders-based solution strategies for stochastic capacity expansion models with loss of load probability constraints</h3><div class="cv-place">Applied Energy · with Benjamin D. Leibowicz</div><p><a class="text-link" href="https://doi.org/10.1016/j.apenergy.2026.128615" target="_blank" rel="noopener">Article ↗</a></p></div></div>
-        <div class="cv-entry"><div class="cv-date">Working paper</div><div><h3>Coordination Problems and Incentive Pass-Through in Carbon Capture, Utilization, and Storage Development</h3><div class="cv-place">with Benjamin D. Leibowicz</div><p>Game-theoretic equilibrium analysis of coordination and policy incidence across the CCUS supply chain.</p></div></div>
-        <div class="cv-entry"><div class="cv-date">Ongoing</div><div><h3>Optimal Policy Portfolios for Carbon Capture</h3><p>Stackelberg policy design combining upfront support, flow incentives, and emissions penalties.</p></div></div>
-        <p><a class="text-link" href="research.html">Full research page →</a></p>
+      <section class="section" id="publications">
+        <h2>Publications</h2>
+        <ul class="rows">
+          <li class="row"><div class="row-date">2026</div><div><h3>Benders-based solution strategies for stochastic capacity expansion models with loss of load probability constraints</h3><p>A. A. Albeladi and B. D. Leibowicz. <em>Applied Energy</em>. <a href="https://doi.org/10.1016/j.apenergy.2026.128615">Article</a></p></div></li>
+          <li class="row"><div class="row-date">Working</div><div><h3>Coordination problems and incentive pass-through in carbon capture, utilization, and storage development</h3><p>A. A. Albeladi and B. D. Leibowicz.</p></div></li>
+          <li class="row"><div class="row-date">Ongoing</div><div><h3>Optimal policy portfolios for carbon capture</h3><p>Stackelberg policy design combining upfront support, output-based incentives, and emissions penalties.</p></div></li>
+        </ul>
+        <p class="section-more"><a href="research.html">All projects</a></p>
       </section>
 
-      <section class="cv-section" id="honors"><h2 class="cv-section-title">Honors & recognition</h2>
-        <div class="cv-entry"><div class="cv-date">2024</div><div><h3>Runner-Up · Dennis J. O'Brien Best Student Paper Competition</h3><div class="cv-place">USAEE / IAEE North American Conference</div><p>Recognized for research on coordination problems and incentive pass-through in CCUS development.</p></div></div>
+      <section class="section" id="honors">
+        <h2>Honors</h2>
+        <ul class="rows">
+          <li class="row"><div class="row-date">2024</div><div><h3>Runner-up, Dennis J. O'Brien Best Student Paper Competition</h3><p>USAEE/IAEE North American Conference, for research on coordination and incentive pass-through in CCUS development.</p></div></li>
+        </ul>
       </section>
 
-      <section class="cv-section" id="service"><h2 class="cv-section-title">Academic service</h2>
-        <div class="cv-entry"><div class="cv-date">Current</div><div><h3>Chair, Industrial Engineering Cooperative Training Committee</h3><div class="cv-place">King Abdulaziz University</div><p>Coordination of cooperative-training activities and industry-facing student experience within the department.</p></div></div>
+      <section class="section" id="service">
+        <h2>Service</h2>
+        <ul class="rows">
+          <li class="row"><div class="row-date">Current</div><div><h3>Chair, Industrial Engineering Cooperative Training Committee</h3><p>King Abdulaziz University</p></div></li>
+        </ul>
       </section>
 
-      <section class="cv-section" id="industry"><h2 class="cv-section-title">Industry experience</h2>
-        <div class="cv-entry"><div class="cv-date">Aviation</div><div><h3>Components maintenance & planning</h3><div class="cv-place">Saudia Technic</div><p>Industry experience in aircraft maintenance operations, planning, and coordination before returning to academia.</p></div></div>
+      <section class="section" id="industry">
+        <h2>Industry experience</h2>
+        <ul class="rows">
+          <li class="row"><div class="row-date">Aviation</div><div><h3>Components maintenance and planning</h3><p>Saudia Technic. Aircraft maintenance operations, planning, and coordination.</p></div></li>
+        </ul>
       </section>
 
-      <section class="cv-section" id="skills"><h2 class="cv-section-title">Methods & software</h2><div class="skill-cluster">
-        <div><h3>Mathematical programming</h3><p>LP · MILP · MCP · nonlinear optimization · chance-constrained optimization · Benders decomposition.</p></div>
-        <div><h3>Programming</h3><p>Python · Julia · GAMS/GAMSPy · Mathematica.</p></div>
-        <div><h3>Optimization software</h3><p>Gurobi · Pyomo · SciPy · IPOPT.</p></div>
-        <div><h3>Data & modeling</h3><p>NumPy · Pandas · Matplotlib · simulation · machine learning for optimization.</p></div>
-      </div></section>
+      <section class="section" id="skills">
+        <h2>Methods and software</h2>
+        <div class="interests">
+          <div><h3>Mathematical programming</h3><p>LP, MILP, MCP, nonlinear and chance-constrained optimization, Benders decomposition</p></div>
+          <div><h3>Programming</h3><p>Python, Julia, GAMS/GAMSPy, Mathematica</p></div>
+          <div><h3>Optimization software</h3><p>Gurobi, Pyomo, SciPy, IPOPT</p></div>
+          <div><h3>Data and modeling</h3><p>NumPy, pandas, Matplotlib, simulation, machine learning for optimization</p></div>
+        </div>
+      </section>
     </div>
   </div>
 </main>
-<footer class="site-footer"><div class="shell"><div class="footer-top"><h2>Research built for <span>real decisions.</span></h2><div class="footer-links"><a href="research.html">Research</a><a href="teaching.html">Teaching</a><a href="https://github.com/abu3abed1" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/aalbeladi/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="footer-bottom"><p>© <span data-year></span> Abdullah A. Albeladi</p><p>King Abdulaziz University · Jeddah</p></div></div></footer><script src="script.js"></script>
-</body></html>
+
+<footer class="site-footer">
+  <div class="wrap footer">
+    <p>© <span data-year>2026</span> Abdullah A. Albeladi, King Abdulaziz University, Jeddah</p>
+    <nav aria-label="Profiles">
+      <!-- TODO: replace YOUR_EMAIL@kau.edu.sa with your email, then delete the word hidden -->
+      <a href="mailto:YOUR_EMAIL@kau.edu.sa" hidden>Email</a>
+      <a href="https://scholar.google.com/citations?user=GiuHl7sAAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/aalbeladi/">LinkedIn</a>
+      <a href="https://github.com/abu3abed1">GitHub</a>
+    </nav>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

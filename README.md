@@ -1,22 +1,21 @@
-# Abdullah A. Albeladi — Academic Website
+# Abdullah A. Albeladi — academic website
 
-A four-page static academic website for GitHub Pages.
+Static site for GitHub Pages: plain HTML, one stylesheet, and a small script. No build step.
 
 ## Pages
-- `index.html` — introduction and biography
-- `cv.html` — detailed academic CV
-- `research.html` — publications and ongoing research
-- `teaching.html` — teaching profile and courses
+- `index.html` — profile, contact links, news, research interests, publications, teaching, education
+- `research.html` — publications and ongoing projects (summaries expand on click)
+- `teaching.html` — courses, approach, and teaching interests
+- `cv.html` — full CV with a section menu
 
-## Portrait
-The site currently loads Abdullah's public GitHub profile image. For a sharper portrait, add a file at:
+## Things to fill in
+Search the HTML files for `TODO`:
+1. **Email** — replace `YOUR_EMAIL@kau.edu.sa`, then delete the word `hidden` on that line (in `index.html` and in the footer of every page).
+2. **ORCID** — replace `0000-0000-0000-0000` in `index.html`, then delete `hidden`.
+3. **CV PDF** — upload your CV to the repository root named exactly `cv.pdf`. The "CV" buttons switch to the PDF automatically.
 
-`assets/profile.jpg`
+## Adding news
+In `index.html`, copy a line inside `<ul class="news">` and edit the year and text. Keep the newest item at the top and about three to five items in total.
 
-Then, in `index.html`, replace the portrait `src` with `assets/profile.jpg`.
-
-## Publishing on GitHub Pages
-Copy the files in this folder into the root of the `aalbeladi.github.io` repository and push to the `main` branch. GitHub Pages will serve `index.html` automatically.
-
-## Design
-The site is intentionally framework-free: HTML, CSS, and a tiny JavaScript file only. Typography uses Google Fonts (`Newsreader` and `DM Sans`) with system fallbacks.
+## Photo
+`DSC_17741.jpg` is used on the home page and as the link preview image.
