@@ -1,10 +1,112 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>My Personal Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Abdullah A. Albeladi — Assistant Professor of Industrial Engineering at King Abdulaziz University. Research in optimization, energy systems, and decision making under uncertainty.">
+  <title>Abdullah A. Albeladi — Industrial Engineering & Operations Research</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hello, I'm Abdullah Albeladi!</h1>
-  <p>Welcome to my personal website. More to come soon.</p>
+<header class="site-header">
+  <nav class="nav shell" aria-label="Main navigation">
+    <a class="wordmark" href="index.html">A. Albeladi<span>.</span></a>
+    <button class="menu-button" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <div class="nav-links">
+      <a class="active" href="index.html">Home</a>
+      <a href="cv.html">Curriculum Vitae</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching</a>
+    </div>
+    <div class="nav-social"><a href="https://www.linkedin.com/in/aalbeladi/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+  </nav>
+</header>
+
+<main>
+  <section class="home-hero">
+    <div class="shell hero-grid">
+      <div class="hero-copy">
+        <div class="kicker">Industrial Engineering · Operations Research</div>
+        <h1 class="display hero-name">Abdullah A.<br>Albeladi</h1>
+        <div class="hero-role"><i></i><span>Assistant Professor · King Abdulaziz University</span></div>
+        <p class="hero-intro">I study how we should <em>plan, invest, and design policy</em> when infrastructure systems are uncertain, expensive, and shaped by strategic behavior.</p>
+        <div class="hero-actions">
+          <a class="text-link" href="research.html">Explore research</a>
+          <a class="text-link" href="cv.html">View curriculum vitae</a>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <div class="portrait-block">
+          <img src="https://avatars.githubusercontent.com/u/94496554?v=4&size=800" alt="Abdullah A. Albeladi">
+          <div class="portrait-meta"><strong>Optimization for consequential decisions.</strong><span>Jeddah · Saudi Arabia</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-strip">
+    <div class="shell">
+      <div class="kicker">About</div>
+      <p class="intro-copy">My work sits at the intersection of <strong>mathematical optimization</strong>, <strong>energy systems</strong>, and <strong>decision science</strong>. I develop models that make uncertainty and strategic interaction explicit—then design algorithms that keep those models computationally useful.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section-head">
+        <div class="kicker">Research agenda</div>
+        <div><h2 class="display">Questions I care about.</h2><p>My research is method-driven but problem-oriented: the mathematics should expose a decision tradeoff that matters in practice.</p></div>
+      </div>
+      <div class="focus-list">
+        <article class="focus-row"><div class="focus-number">01</div><h3>Planning under uncertainty</h3><p>Stochastic and chance-constrained optimization for long-term infrastructure decisions, especially when reliability requirements must be enforced directly rather than checked after the fact.</p></article>
+        <article class="focus-row"><div class="focus-number">02</div><h3>Algorithms for difficult models</h3><p>Decomposition, scenario selection, and learning-guided methods for large stochastic programs where computational burden is driven by a small set of structurally difficult scenarios.</p></article>
+        <article class="focus-row"><div class="focus-number">03</div><h3>Markets, incentives & coordination</h3><p>Game-theoretic and equilibrium models that study how policy incentives move through infrastructure supply chains and how coordination failures alter investment and welfare.</p></article>
+        <article class="focus-row"><div class="focus-number">04</div><h3>Energy & infrastructure systems</h3><p>Applications in power-system planning, resource adequacy, carbon capture and storage, environmental policy, and other capital-intensive systems exposed to uncertainty.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section-head">
+        <div class="kicker">Selected publication</div>
+        <div><h2 class="display">Reliability belongs inside the planning model.</h2></div>
+      </div>
+      <article class="featured-paper">
+        <div class="featured-paper-main">
+          <div>
+            <div class="kicker">Applied Energy · 2026</div>
+            <h3>Benders-based solution strategies for stochastic capacity expansion models with loss of load probability constraints</h3>
+            <p>With Benjamin D. Leibowicz. We formulate a two-stage stochastic capacity-expansion model that embeds a loss-of-load probability requirement directly as a chance constraint, and develop scenario-wise Benders strategies to make the resulting model tractable.</p>
+          </div>
+          <div><a class="text-link" href="https://doi.org/10.1016/j.apenergy.2026.128615" target="_blank" rel="noopener">Read the article ↗</a></div>
+        </div>
+        <aside class="paper-meta">
+          <div class="journal">Applied<br>Energy</div>
+          <dl><dt>Field</dt><dd>Power-system planning</dd><dt>Methods</dt><dd>Stochastic MILP · Chance constraints · Benders decomposition</dd><dt>Focus</dt><dd>Capacity expansion & resource adequacy</dd></dl>
+        </aside>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section-head"><div class="kicker">Background</div><div><h2 class="display">Engineering, optimization, policy.</h2></div></div>
+      <div class="education-line">
+        <article class="edu-item"><div class="edu-year">Ph.D.</div><h3>The University of Texas at Austin</h3><p>Operations Research & Industrial Engineering</p></article>
+        <article class="edu-item"><div class="edu-year">M.S.</div><h3>University of Michigan</h3><p>Industrial Engineering · Ann Arbor</p></article>
+        <article class="edu-item"><div class="edu-year">B.S.</div><h3>King Abdulaziz University</h3><p>Industrial Engineering · Jeddah</p></article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-top"><h2>Research built for <span>real decisions.</span></h2><div class="footer-links"><a href="research.html">Research</a><a href="cv.html">CV</a><a href="teaching.html">Teaching</a><a href="https://github.com/abu3abed1" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/aalbeladi/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div>
+    <div class="footer-bottom"><p>© <span data-year></span> Abdullah A. Albeladi</p><p>Assistant Professor of Industrial Engineering · King Abdulaziz University</p></div>
+  </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
